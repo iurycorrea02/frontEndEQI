@@ -1,0 +1,36 @@
+$bgHover: #ed8e53 ;
+$bgWhite: #fff;
+$bgGray: #969696;
+
+.button {
+    padding: 1rem;
+    width: 16.5rem;
+    cursor: pointer;
+    height: 3.75rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: black;
+
+    &:hover {
+        background-color: #ed8e53;
+        transition: background-color 0.5s ease-out;
+    }
+    
+    &--transparent {
+        border-color: black;
+    }
+    
+    &--gray {
+        background-color: #969696;
+    }
+
+    
+
+    &__label {
+        font: {
+            weight: 700;
+            size: 1.15rem;
+        }
+    }
+}
+
